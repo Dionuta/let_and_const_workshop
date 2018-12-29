@@ -5,10 +5,11 @@
   <body>
     <h1>Name</h1>
     <script>
-      var name = "Andrew";
+      // Showing that const can't be changed
+      const name = "Andrew";
 
       function createFullName(fName, lName) {
-          name = fName + " " + lName;
+         const  name = fName + " " + lName;
           console.log(name);
       }
       console.log(name);
